@@ -1,0 +1,13 @@
+{
+  "type": "postgres",
+  "host": "motty.db.elephantsql.com",
+  "port": 5432,
+  "username": "hcktgjll",
+  "password": "9kYiicEq8-o_Toz6c0gZZQWxeSGS4sPA",
+  "database": "hcktgjll",
+  "migrations": ["./src/shared/infra/typeorm/migrations/*.ts"],
+  "entities": ["./src/modules/**/infra/typeorm/entities/*.ts"],
+  "cli": {
+    "migrationDir": "./src/shared/infra/typeorm/migrations"
+  }
+}
